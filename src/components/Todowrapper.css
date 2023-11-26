@@ -1,0 +1,49 @@
+/* TodoWrapper.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(to right, #a09016, #db8d34); Updated background colors */
+    background-image: url("/src/imgbck.png");
+    color: #333; /* Updated text color */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .TodoWrapper {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .TodoWrapper:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3498db; /* Updated header color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .TodoWrapper:hover h1 {
+    color: #7016a0; /* Updated header color on hover */
+  }
+  
+  /* ... (other styles remain the same) ... */
+  .todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid rgb(88, 255, 227);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #f30876;
+  }
